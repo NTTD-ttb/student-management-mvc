@@ -219,3 +219,10 @@ student-management-mvc/
 2. File `.ps1` dùng để làm gì? Nó có phải file PHP không?
 3. Vai trò của `public/index.php` khác gì với các file trong `app/views/`?
 4. Nếu chạy lại script lần thứ hai, các file PHP đã viết có bị mất nội dung không?
+# Lời tác giả
+Chào các bạn sinh viên, 
+
+Dự án Quản lý sinh viên "student-management-mvc" chỉ là một dự án nhỏ được phát triển theo mô hình MVC bằng ngôn ngữ PHP và sử dụng CSDL MySQL. Demo này chưa đầy đủ chức năng, chỉ dừng ở mức cơ bản giúp sinh viên hiểu được quy trình MVC khi xây dựng bằng PHP thuần. Các thông tin sinh viên và người dùng trong Database đều là dữ liệu giả lập. Mật khẩu đăng nhập tài khoản khi chạy demo dự án là 123456.
+**Tuyên bố bản quyền và quyền sử dụng:** 
+*-Mã nguồn do tác giả  ThS. Phạm Thị Trúc Mai biên soạn dùng cho giáo trình Phát triển ứng dụng web mã nguồn mở, bản quyền thuộc về tác giả/nhóm tác giả của cuốn giáo trình này.*
+*-Sinh viên có quyền Fork Repo về sử dụng và chỉnh sửa thêm. Mọi thay đổi do quá trình chỉnh sửa bổ sung mã nguồn sau này của sinh viên không thuộc trách nhiệm của tác giả gốc.*
