@@ -19,10 +19,10 @@ Mở File Explorer, truy cập:
 C:\xampp\htdocs
 ```
 
-Tạo thư mục `TH_LTWEB` nếu chưa có, sau đó tạo thư mục `student-management-mvc` bên trong. Đường dẫn cuối cùng là:
+Tạo thư mục `student-management-mvc` bên trong. Đường dẫn cuối cùng là:
 
 ```text
-C:\xampp\htdocs\TH_LTWEB\student-management-mvc
+C:\xampp\htdocs\student-management-mvc
 ```
 
 > Nếu XAMPP được cài ở vị trí khác, hãy thay `C:\xampp` bằng đường dẫn thực tế.
@@ -31,7 +31,7 @@ C:\xampp\htdocs\TH_LTWEB\student-management-mvc
 
 1. Mở **Visual Studio Code**.
 2. Chọn **File → Open Folder...**.
-3. Chọn thư mục `C:\xampp\htdocs\TH_LTWEB\student-management-mvc`.
+3. Chọn thư mục `C:\xampp\htdocs\student-management-mvc`.
 4. Chọn **Select Folder**. Nếu VS Code hỏi có tin cậy thư mục không, chỉ chấp nhận nếu đây là thư mục do bạn tạo hoặc nguồn đáng tin cậy.
 
 ## 4. Mở Terminal và kiểm tra đường dẫn
@@ -43,7 +43,7 @@ Kiểm tra Terminal đang dùng **PowerShell** (thường có tiền tố `PS`).
 Nếu Terminal chưa ở thư mục gốc, chạy:
 
 ```powershell
-cd C:\xampp\htdocs\TH_LTWEB\student-management-mvc
+cd C:\xampp\htdocs\student-management-mvc
 ```
 
 Để xem đường dẫn hiện tại, chạy:
@@ -209,7 +209,7 @@ student-management-mvc/
 ## 9. Lưu ý khi chạy ứng dụng
 
 - Sau khi chạy script, các file PHP vẫn **rỗng**. Ứng dụng chưa thể hoạt động cho đến khi viết mã nguồn.
-- Khi đã hoàn thiện phần định tuyến và xử lý, có thể thử truy cập `http://localhost/TH_LTWEB/student-management-mvc/public/` với Apache của XAMPP đang chạy.
+- Khi đã hoàn thiện phần định tuyến và xử lý, có thể thử truy cập `http://localhost/student-management-mvc/public/` với Apache của XAMPP đang chạy.
 - Trong triển khai thực tế, nên cấu hình Apache để thư mục `public/` là **DocumentRoot**, không công khai trực tiếp `app/` hoặc `config/`.
 - Nếu chia sẻ dự án lên GitHub, hãy đưa cả `README.md` và `create-structure.ps1` vào repository để người khác có thể làm theo.
 
