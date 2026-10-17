@@ -211,7 +211,7 @@ student-management-mvc/
 - Sau khi chạy script, các file PHP vẫn **rỗng**. Ứng dụng chưa thể hoạt động cho đến khi viết mã nguồn.
 - Khi đã hoàn thiện phần định tuyến và xử lý, có thể thử truy cập `http://localhost/student-management-mvc/public/` với Apache của XAMPP đang chạy.
 - Trong triển khai thực tế, nên cấu hình Apache để thư mục `public/` là **DocumentRoot**, không công khai trực tiếp `app/` hoặc `config/`.
-- Nếu chia sẻ dự án lên GitHub, hãy đưa cả `README.md` và `create-structure.ps1` vào repository để người khác có thể làm theo.
+- File Readme.md này hướng dẫn thao tác tạo nhanh dự án rỗng theo MVC thuần (nội dung các file trong thư mục trên sẽ không có sẵn, sinh viên cần tự tạo nội dung bên trong). Tuy nhiên, Repo này đã được tác giả hoàn thiện các file bên trong, sinh viên có thể Fork về để tham khảo và phát triển thêm.  
 
 ## 10. Câu hỏi tự kiểm tra
 
