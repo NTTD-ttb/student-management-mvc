@@ -1,5 +1,7 @@
 <?php
 // app/models/ClassModel.php
+
+// trongn model chỉ xử lý đúng thực hinenej j sai thực hiện gì thoi
 require_once __DIR__ . '/../../config/DataBase.php';
 class ClassModel {
     public $class_code;
